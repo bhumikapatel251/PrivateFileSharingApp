@@ -21,6 +21,7 @@
 		ACA3D8DD2959BA770031547C /* FormContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8DC2959BA770031547C /* FormContentBuilder.swift */; };
 		ACA3D8E02959BAA80031547C /* FormItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8DF2959BAA80031547C /* FormItem.swift */; };
 		ACA3D8E62959BCBD0031547C /* TxtHadingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8E52959BCBD0031547C /* TxtHadingComponent.swift */; };
+		ACA3D8E82959BD120031547C /* TxtTagComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8E72959BD120031547C /* TxtTagComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		ACA3D8E32959BC620031547C /* Genos-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Genos-Regular.ttf"; sourceTree = "<group>"; };
 		ACA3D8E42959BC680031547C /* Genos-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Genos-Medium.ttf"; sourceTree = "<group>"; };
 		ACA3D8E52959BCBD0031547C /* TxtHadingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtHadingComponent.swift; sourceTree = "<group>"; };
+		ACA3D8E72959BD120031547C /* TxtTagComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtTagComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				ACA3D8D72959BA200031547C /* TextFieldFormView.swift */,
 				ACA3D8D92959BA420031547C /* ButtonFormView.swift */,
 				ACA3D8E52959BCBD0031547C /* TxtHadingComponent.swift */,
+				ACA3D8E72959BD120031547C /* TxtTagComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				ACA3D8DA2959BA420031547C /* ButtonFormView.swift in Sources */,
 				ACA3D8D52959B9EB0031547C /* FormState.swift in Sources */,
 				ACA3D8E62959BCBD0031547C /* TxtHadingComponent.swift in Sources */,
+				ACA3D8E82959BD120031547C /* TxtTagComponent.swift in Sources */,
 				ACA3D8DD2959BA770031547C /* FormContentBuilder.swift in Sources */,
 				ACA3D8E02959BAA80031547C /* FormItem.swift in Sources */,
 				ACA3D8D12959B9B40031547C /* ValidationError.swift in Sources */,
