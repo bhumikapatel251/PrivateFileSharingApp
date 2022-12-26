@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		ACA3D8AB2959B7260031547C /* PrivateFileSharingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8AA2959B7260031547C /* PrivateFileSharingAppApp.swift */; };
-		ACA3D8AD2959B7260031547C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8AC2959B7260031547C /* ContentView.swift */; };
 		ACA3D8AF2959B7280031547C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA3D8AE2959B7280031547C /* Assets.xcassets */; };
 		ACA3D8B22959B7280031547C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA3D8B12959B7280031547C /* Preview Assets.xcassets */; };
+		ACA3D8CA2959B92D0031547C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8C92959B92D0031547C /* ContentView.swift */; };
+		ACA3D8CD2959B97B0031547C /* RegexFormItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8CC2959B97B0031547C /* RegexFormItem.swift */; };
+		ACA3D8CF2959B99C0031547C /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8CE2959B99C0031547C /* Rules.swift */; };
+		ACA3D8D12959B9B40031547C /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8D02959B9B40031547C /* ValidationError.swift */; };
+		ACA3D8D32959B9D10031547C /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8D22959B9D10031547C /* ValidationManager.swift */; };
+		ACA3D8D52959B9EB0031547C /* FormState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8D42959B9EB0031547C /* FormState.swift */; };
+		ACA3D8D82959BA200031547C /* TextFieldFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8D72959BA200031547C /* TextFieldFormView.swift */; };
+		ACA3D8DA2959BA420031547C /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8D92959BA420031547C /* ButtonFormView.swift */; };
+		ACA3D8DD2959BA770031547C /* FormContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8DC2959BA770031547C /* FormContentBuilder.swift */; };
+		ACA3D8E02959BAA80031547C /* FormItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8DF2959BAA80031547C /* FormItem.swift */; };
+		ACA3D8E62959BCBD0031547C /* TxtHadingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3D8E52959BCBD0031547C /* TxtHadingComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACA3D8A72959B7260031547C /* PrivateFileSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateFileSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA3D8AA2959B7260031547C /* PrivateFileSharingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateFileSharingAppApp.swift; sourceTree = "<group>"; };
-		ACA3D8AC2959B7260031547C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACA3D8AE2959B7280031547C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA3D8B12959B7280031547C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACA3D8C92959B92D0031547C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACA3D8CC2959B97B0031547C /* RegexFormItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexFormItem.swift; sourceTree = "<group>"; };
+		ACA3D8CE2959B99C0031547C /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		ACA3D8D02959B9B40031547C /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		ACA3D8D22959B9D10031547C /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		ACA3D8D42959B9EB0031547C /* FormState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormState.swift; sourceTree = "<group>"; };
+		ACA3D8D72959BA200031547C /* TextFieldFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFormView.swift; sourceTree = "<group>"; };
+		ACA3D8D92959BA420031547C /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		ACA3D8DC2959BA770031547C /* FormContentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormContentBuilder.swift; sourceTree = "<group>"; };
+		ACA3D8DF2959BAA80031547C /* FormItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormItem.swift; sourceTree = "<group>"; };
+		ACA3D8E32959BC620031547C /* Genos-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Genos-Regular.ttf"; sourceTree = "<group>"; };
+		ACA3D8E42959BC680031547C /* Genos-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Genos-Medium.ttf"; sourceTree = "<group>"; };
+		ACA3D8E52959BCBD0031547C /* TxtHadingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtHadingComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,12 @@
 		ACA3D89E2959B7260031547C = {
 			isa = PBXGroup;
 			children = (
+				ACA3D8E22959BC500031547C /* Font */,
+				ACA3D8DE2959BA940031547C /* Model */,
+				ACA3D8DB2959BA580031547C /* Builder */,
+				ACA3D8D62959B9FE0031547C /* Component */,
+				ACA3D8CB2959B95D0031547C /* Validation */,
+				ACA3D8C42959B8750031547C /* View */,
 				ACA3D8A92959B7260031547C /* PrivateFileSharingApp */,
 				ACA3D8A82959B7260031547C /* Products */,
 			);
@@ -52,9 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				ACA3D8AA2959B7260031547C /* PrivateFileSharingAppApp.swift */,
-				ACA3D8AC2959B7260031547C /* ContentView.swift */,
 				ACA3D8AE2959B7280031547C /* Assets.xcassets */,
 				ACA3D8B02959B7280031547C /* Preview Content */,
+				ACA3D8C92959B92D0031547C /* ContentView.swift */,
 			);
 			path = PrivateFileSharingApp;
 			sourceTree = "<group>";
@@ -65,6 +93,60 @@
 				ACA3D8B12959B7280031547C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACA3D8C42959B8750031547C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACA3D8CB2959B95D0031547C /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				ACA3D8CC2959B97B0031547C /* RegexFormItem.swift */,
+				ACA3D8CE2959B99C0031547C /* Rules.swift */,
+				ACA3D8D02959B9B40031547C /* ValidationError.swift */,
+				ACA3D8D22959B9D10031547C /* ValidationManager.swift */,
+				ACA3D8D42959B9EB0031547C /* FormState.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		ACA3D8D62959B9FE0031547C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				ACA3D8D72959BA200031547C /* TextFieldFormView.swift */,
+				ACA3D8D92959BA420031547C /* ButtonFormView.swift */,
+				ACA3D8E52959BCBD0031547C /* TxtHadingComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		ACA3D8DB2959BA580031547C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				ACA3D8DC2959BA770031547C /* FormContentBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		ACA3D8DE2959BA940031547C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACA3D8DF2959BAA80031547C /* FormItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACA3D8E22959BC500031547C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				ACA3D8E32959BC620031547C /* Genos-Regular.ttf */,
+				ACA3D8E42959BC680031547C /* Genos-Medium.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +219,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA3D8AD2959B7260031547C /* ContentView.swift in Sources */,
+				ACA3D8D32959B9D10031547C /* ValidationManager.swift in Sources */,
+				ACA3D8CD2959B97B0031547C /* RegexFormItem.swift in Sources */,
+				ACA3D8D82959BA200031547C /* TextFieldFormView.swift in Sources */,
+				ACA3D8DA2959BA420031547C /* ButtonFormView.swift in Sources */,
+				ACA3D8D52959B9EB0031547C /* FormState.swift in Sources */,
+				ACA3D8E62959BCBD0031547C /* TxtHadingComponent.swift in Sources */,
+				ACA3D8DD2959BA770031547C /* FormContentBuilder.swift in Sources */,
+				ACA3D8E02959BAA80031547C /* FormItem.swift in Sources */,
+				ACA3D8D12959B9B40031547C /* ValidationError.swift in Sources */,
+				ACA3D8CF2959B99C0031547C /* Rules.swift in Sources */,
+				ACA3D8CA2959B92D0031547C /* ContentView.swift in Sources */,
 				ACA3D8AB2959B7260031547C /* PrivateFileSharingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
